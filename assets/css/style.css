@@ -1,0 +1,257 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
+.navIndex {
+    background-color: #DBD3C9;
+    align-items: center;
+    width: 100%;
+    grid-area: navIndex;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center ;
+}
+nav ul li {
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+}
+nav ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+}
+.contenedorIn {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 14% 20% 20% 20px 20px;
+    grid-template-areas: "navIndex navIndex navIndex navIndex navIndex navIndex"
+                         "headerIn headerIn headerIn headerIn headerIn headerIn"
+                         "mainIn mainIn mainIn sidebarIn sidebarIn sidebarIn"
+                        ;
+}
+.headerIn {
+    grid-area: headerIn;
+}
+.mainIn {
+    grid-area: mainIn;
+}
+.sidebarIn {
+    grid-area: sidebarIn;
+}
+.footerIn {
+    grid-area: f
+}
+h1 {
+    color:#2E2419;
+    margin: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.body {
+background-image:url(../img/decoracion15.jpg);
+background-size:cover;
+}
+.tarjetaP {
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 50;
+    background-color:#DBD3C9;
+    color: #2E2419;
+    text-align: center;
+}
+.tarjetaDos{
+    margin: 30px;
+    font-size: 20px;
+    background-color:#DBD3C9;
+    color: #2E2419;
+    text-align: center;
+}
+.tituloImgP{
+    margin-bottom: 2px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500px;
+}
+.boton {
+    margin: 10px;
+    background-color: #DBD3C9;
+}
+.redesSociales{
+    width: 280px;
+    margin-left: 10px;
+    margin-bottom: 1%;
+    font-size: 17px;
+    font-weight: 200;
+    color:black;
+}
+.navQs {
+    background-color: #DBD3C9;
+}
+.tituloQs{
+    color:#2E2419;
+    margin: 6px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600px;
+}
+.parrafoQs {
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: left;
+}
+.mapaQs {
+    margin-left: 20px;
+    size: 100px;
+}
+.ubi {
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 750;
+    color: #736A5F;
+}
+.containerServ {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 3% 10% 10%;
+    grid-template-areas: "navServicios navServicios navServicios navServicios navServicios navServicios" 
+                         "headerS headerS headerS headerS headerS headerS" 
+                         "mainS mainS mainS sidebarS sidebarS sidebarS";
+
+}
+.navServicios {
+    background-color: #DBD3C9;
+    grid-area: navServicios;
+}
+.headerS {
+    grid-area: headerS;
+}
+.mainS {
+    grid-area: mainS;
+}
+.sidebarS {
+    grid-area: sidebarS;
+}
+.bodyServicios {
+    background-color: #F2F2F2;
+}
+.parrafoServicios {
+    margin: 50px;
+    font-size: 20px;
+    font-weight: 50;
+}
+.listaServicios {
+    margin: 50px;
+    list-style:disc;
+    text-align:left;
+    font-size: 18px;
+}
+.imagenServicios {
+    margin: 10px;
+    padding: 10px;
+    width:400px
+}
+main form {
+    margin: 30px;
+    text-align: left;
+}
+.navContacto {
+    background-color: #DBD3C9;
+}
+.bodyContacto {
+    background-color: #F2F2F2;
+}
+.consulta {
+    font-size: 18px;
+    font-weight: 750;
+    color: #736A5F;
+}
+.sel {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.navEventos {
+    background-color: #DBD3C9;
+}
+.bodyEventos {
+    background-color: #F2F2F2;
+}
+.galeriaEventos {
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 20px;
+   grid-auto-rows: 150px;
+   margin: 20px;
+   padding: 20px;
+}
+.imgEventos {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media(max-width:800px){
+    .contenedorIn {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 14% 14% 14% 20px 20px;
+    grid-template-areas: "navIndex headerIn headerIn headerIn headerIn headerIn headerIn"
+                         "navIndex headerIn headerIn headerIn headerIn headerIn headerIn"
+                         "mainIn mainIn mainIn mainIn mainIn mainIn mainIn"
+                         "sidebarIn sidebarIn sidebarIn sidebarIn sidebarIn sidebarIn sidebarIn"
+                        ;
+}
+.ulInd {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100px;
+    background-color: #DBD3C9;
+}
+.tarjetaP {
+    width: 350px;
+    margin-left: 120px;
+}
+.sidebarIn {
+    margin-top: 400px;
+}
+.mainIn {
+    justify-content: center;
+
+}
+   .containerServ {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 3% 10% 10%;
+    grid-template-areas: "navServicios navServicios headerS headerS headerS headerS" 
+                         "headerS headerS headerS headerS headerS headerS" 
+                         "mainS mainS mainS sidebarS sidebarS sidebarS";
+
+}
+.imagenServicios {
+    width: 300px;
+}
+.mainS {
+    text-align: left;
+}
+.ulS {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100px;
+    background-color: #DBD3C9;
+}
+.navServicios {
+    background-color: none;
+    width: 0;
+}
+.headerS {
+    margin-left: 150px;
+}
+}
