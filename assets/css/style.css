@@ -25,6 +25,10 @@ nav ul li a {
         font-size: 20px;
         color: black;
 }
+.logoNav{
+    width: 62px;
+    justify-content: flex-start;
+}
 .contenedorIn {
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
