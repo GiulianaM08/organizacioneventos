@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contáctanos</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body class="bodyContacto">
@@ -19,24 +20,22 @@
             <li><a href="./contacto.html">Contacto</a></li>
         </ul>
      </div>
-     <div>
-        <img class="logoNav" src="../assets/img/logo.jpg" alt="">
-    </div>
 </nav>
  <header>
     <h1>Contáctanos</h1>
  </header>
  <main>
+    <h4 class="pContacto">Escuchar tus ideas y necesidades es primordial para nosotros. No hay un proyecto más importante que otro, no depende de un presupuesto. Explícanos en qué estás pensando y te ayudaremos y diseñaremos para ti el evento perfecto</h4>
      <form action="">
          <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
          <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required>
          <input type="number" name="tel" id="tel" placeholder="Ingrese su móvil" required>
          <input type="email" name="mail" id="mail" placeholder="Ingrese su mail" required>
          <br>
-         <textarea name="comentario" id="comentario" cols="30" rows="10">Ingrese su consulta</textarea>
+         <textarea name="comentario" id="comentario" cols="30" rows="10">Ingrese su comentario</textarea>
          <br>
          <div>
-             <div>Acepto términos y condiciones</div>
+             <div>He leído y acepto términos y condiciones</div>
              <input type="checkbox" name="Acepto" value="si" required>
          </div>
          <br>
@@ -50,13 +49,33 @@
          <input type="submit" value="Enviar">
          <input type="reset" value="Reiniciar">
      </form>
-     <div class="redesSociales">
+ </main>
+ <aside></aside>
+ <footer class="footerContacto">
+    <div class="infoContacto">
+        <h4>Información</h4>
+        <ul>
+            <li> partyplanner@gmail.com</li>
+            <li>+34 663 27 9174</li>
+            <li>Av. de Juan Carlos I, 1, Ibi Alicante</li>
+        </ul>
+    </div>
+    <div class="redesSociales">
         <h5 class="redesSociales">Síguenos en nuestras redes sociales</h5>
         <a class="redesSociales" href="https://www.instagram.com/">Instagram</a>
         <a class="redesSociales" href="https://facebook.com/">Facebook</a>
     </div>
- </main>
- <aside></aside>
- <footer>Ⓒ2022 Todos los derechos reservados</footer>
+    Ⓒ2022 Todos los derechos reservados
+    <div>
+        <img data-aos="fade-up"
+        data-aos-duration="2500" 
+        data-aos-anchor-placement="top-bottom"
+        class="logoContacto" src="../assets/img/logo.jpg" alt="">
+    </div>
+</footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>

@@ -28,15 +28,41 @@ nav ul li a {
 .logoNav{
     width: 62px;
     justify-content: flex-start;
+    margin-top: 10px;
 }
 .contenedorIn {
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 14% 20% 20% 20px 20px;
+    grid-template-rows: 14% 20% 20% 20px 20px 20px 20px;
     grid-template-areas: "navIndex navIndex navIndex navIndex navIndex navIndex"
                          "headerIn headerIn headerIn headerIn headerIn headerIn"
                          "mainIn mainIn mainIn sidebarIn sidebarIn sidebarIn"
+                         "footerIndex footerIndex footerIndex footerIndex footerIndex footerIndex"
+                         "footerIndex footerIndex footerIndex footerIndex footerIndex footerIndex"
                         ;
+}
+.footerIndex {
+    grid-area: footerIndex;
+    display: flex;
+    margin-top: 300px;
+    padding: 5px;
+}
+.infoIndex h4 {
+    background-color: #DBD3C9;
+}
+.infoIndex ul li {
+    list-style: none;
+    background-color: #DBD3C9;
+}
+.infoIndex {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 6px;
+    background-color: #DBD3C9;
+    
+}
+.imgIndex {
+    width: 500px;
 }
 .headerIn {
     grid-area: headerIn;
@@ -47,9 +73,6 @@ nav ul li a {
 .sidebarIn {
     grid-area: sidebarIn;
 }
-.footerIn {
-    grid-area: f
-}
 h1 {
     color:#2E2419;
     margin: 30px;
@@ -58,7 +81,7 @@ h1 {
     font-weight: 600;
 }
 .body {
-background-image:url(../img/decoracion15.jpg);
+background-color: #FFFCF3 ;
 background-size:cover;
 }
 .tarjetaP {
@@ -97,6 +120,9 @@ background-size:cover;
 .navQs {
     background-color: #DBD3C9;
 }
+.bodyQs {
+    background-color: #FFFCF3;
+}
 .tituloQs{
     color:#2E2419;
     margin: 6px;
@@ -119,6 +145,9 @@ background-size:cover;
     font-size: 18px;
     font-weight: 750;
     color: #736A5F;
+}
+.bodyServicios {
+    background-color: #FFFCF3;
 }
 .containerServ {
     display: grid;
@@ -156,6 +185,11 @@ background-size:cover;
     text-align:left;
     font-size: 18px;
 }
+.galeriaServicios {
+    margin: 5px;
+    box-shadow: #2E2419;
+
+}
 .imagenServicios {
     margin: 10px;
     padding: 10px;
@@ -165,11 +199,35 @@ main form {
     margin: 30px;
     text-align: left;
 }
+.pContacto {
+    padding: 5px;
+    text-align: left;
+}
+.footerContacto {
+    background-color: #DBD3C9;
+    display: flex;
+}
+.logoContacto {
+    width: 62px;
+    margin-left: 250px;
+    margin-top: 6px;
+
+}
+.infoContacto ul li {
+    list-style: none;
+
+}
+.infoContacto {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 6px;
+    background-color: #DBD3C9;
+}
 .navContacto {
     background-color: #DBD3C9;
 }
 .bodyContacto {
-    background-color: #F2F2F2;
+    background-color: #FFFCF3;
 }
 .consulta {
     font-size: 18px;
@@ -184,20 +242,7 @@ main form {
     background-color: #DBD3C9;
 }
 .bodyEventos {
-    background-color: #F2F2F2;
-}
-.galeriaEventos {
-   display: grid;
-   grid-template-columns: repeat(3,1fr);
-   gap: 20px;
-   grid-auto-rows: 150px;
-   margin: 20px;
-   padding: 20px;
-}
-.imgEventos {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-color: #FFFCF3;
 }
 @media(max-width:800px){
     .contenedorIn {
