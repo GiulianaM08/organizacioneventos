@@ -18,6 +18,7 @@
 .parrafoIndex {
     text-align: center;
     font-size: 18px;
+    margin: 3px;
 }
 .redesSociales{
     width: 280px;
@@ -82,13 +83,13 @@
     margin: 50px;
     list-style:disc;
     text-align:left;
-    font-size: 18px;
+    font-size: 15px;
 }
 .imgServicios {
     width: 200px;
-    margin-left: 10px;
+    margin-left: 85px;
+    margin-bottom: 3px;
     padding: 5px;
-    
 }
 main form {
     margin: 30px;
@@ -96,7 +97,7 @@ main form {
 }
 .pContacto {
     padding: 5px;
-    text-align: left;
+    text-align:center;
     font-size: 18px;
 }
 .tituloContacto {
@@ -142,15 +143,14 @@ main form {
     font-size: 40px;
     font-weight: 600;
 }
-.navEventos {
-    background-color: #DBD3C9;
-}
 .bodyEventos {
     background-color: #FFFCF3;
 }
 .imgEventos {
-    width: 300px;
-    margin: 10px;
-    margin-left: 20px;
+    width: 250px;
+    margin-left: 90px;
     margin-top: 20px;
+}
+.imgEv {
+    width: 500px;
 }
