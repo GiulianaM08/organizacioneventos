@@ -1,0 +1,26 @@
+.tituloQs{
+    color:$colorTitulo ;
+    margin: 6px;
+    text-align: center;
+    font-size:$tamanioTitulo;
+    font-weight: 600px;
+}
+.bodyQs {
+    background-color: $colorFondo;
+    .parrafoQs {
+        margin: 20px;
+        font-size: 20px;
+        font-weight: 200;
+        text-align: left;
+    }
+    .mapaQs {
+        size: 30%;
+        margin-left: 5px;
+    }
+    .ubi {
+        margin: 20px;
+        font-size: 18px;
+        font-weight: 750;
+        color: #736A5F;
+    }
+}

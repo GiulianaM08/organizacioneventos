@@ -1,157 +1,139 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing:border-box;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
+
 .bodyIndex {
-    background-color: #FFFCF3 ;
+  background-color: #FFFCF3;
 }
-.tituloIndex {
-    color:#2E2419;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 600;
+.bodyIndex .tituloIndex {
+  color: #2E2419;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
 }
-.tituloIndexDos {
-    text-align: center;
+.bodyIndex .tituloIndexDos {
+  text-align: center;
 }
-.parrafoIndex {
-    text-align: center;
-    font-size: 18px;
-    margin: 3px;
+.bodyIndex .parrafoIndex {
+  text-align: center;
+  font-size: 18px;
+  margin: 3px;
 }
-.redesSociales{
-    width: 280px;
-    font-size: 13px;
-    font-weight: 400;
-    color:black;
-    margin-left: 16px;
-}
-.infoFooter ul li {
-    list-style: none;
-    width: 280px;
-    font-size: 13px;
-    font-weight: 400;
-    color:black;
-    background-color:  #DBD3C9;;
 
-}
 .footer {
-    background-color: #DBD3C9;
-    justify-content: start;
+  background-color: #DBD3C9;
+  justify-content: start;
 }
-    
+.footer .redesSociales {
+  width: 280px;
+  font-size: 13px;
+  font-weight: 400;
+  color: black;
+  margin-left: 16px;
+}
+.footer .infoFooter ul li {
+  list-style: none;
+  width: 280px;
+  font-size: 13px;
+  font-weight: 400;
+  color: black;
+  background-color: #DBD3C9;
+}
+
+.tituloQs {
+  color: #2E2419;
+  margin: 6px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600px;
+}
+
 .bodyQs {
-    background-color: #FFFCF3;
+  background-color: #FFFCF3;
 }
-.tituloQs{
-    color:#2E2419;
-    margin: 6px;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 600px;
+.bodyQs .parrafoQs {
+  margin: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: left;
 }
-.parrafoQs {
-    margin: 20px;
-    font-size: 20px;
-    font-weight: 200;
-    text-align: left;
+.bodyQs .mapaQs {
+  size: 30%;
+  margin-left: 5px;
 }
-.mapaQs {
-    size: 30%;
-    margin-left: 5px;
+.bodyQs .ubi {
+  margin: 20px;
+  font-size: 18px;
+  font-weight: 750;
+  color: #736A5F;
 }
-.ubi {
-    margin: 20px;
-    font-size: 18px;
-    font-weight: 750;
-    color: #736A5F;
-}
+
 .bodyServicios {
-    background-color: #FFFCF3;
+  background-color: #FFFCF3;
 }
-.tituloServicios {
-    color:#2E2419;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 600;
+.bodyServicios .tituloServicios {
+  color: #2E2419;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
 }
-.parrafoServicios {
-    text-align: center;
-    font-size: 18px;
+.bodyServicios .parrafoServicios {
+  text-align: center;
+  font-size: 18px;
 }
-.listaServicios {
-    margin: 50px;
-    list-style:disc;
-    text-align:left;
-    font-size: 15px;
+.bodyServicios .listaServicios {
+  margin: 50px;
+  list-style: disc;
+  text-align: left;
+  font-size: 15px;
 }
-.imgServicios {
-    width: 200px;
-    margin-left: 85px;
-    margin-bottom: 3px;
-    padding: 5px;
+.bodyServicios .imgServicios {
+  width: 200px;
+  margin-left: 85px;
+  margin-bottom: 3px;
+  padding: 5px;
 }
-main form {
-    margin: 30px;
-    text-align: left;
-}
-.pContacto {
-    padding: 5px;
-    text-align:center;
-    font-size: 18px;
-}
-.tituloContacto {
-    color:#2E2419;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 600;
-}
-.footerContacto {
-    background-color: #DBD3C9;
-    display: flex;
-}
-.logoContacto {
-    width: 62px;
-    margin-left: 30px;
 
-}
-.infoContacto ul li {
-    list-style: none;
-
-}
-.infoContacto {
-    margin-left: 30px;
-    margin-bottom: 10px;
-    margin-top: 6px;
-    background-color: #DBD3C9;
-}
 .bodyContacto {
-    background-color: #FFFCF3;
+  background-color: #FFFCF3;
 }
-.consulta {
-    font-size: 18px;
-    font-weight: 750;
-    color: #736A5F;
+.bodyContacto .tituloContacto {
+  color: #2E2419;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
 }
-.sel {
-    margin-top: 5px;
-    margin-bottom: 5px;
+.bodyContacto .pContacto {
+  padding: 5px;
+  text-align: center;
+  font-size: 18px;
 }
-.tituloEventos {
-    color:#2E2419;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 600;
+.bodyContacto .consulta {
+  font-size: 18px;
+  font-weight: 750;
+  color: #736A5F;
 }
+.bodyContacto .sel {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.bodyContacto main form {
+  margin: 30px;
+  text-align: left;
+}
+.bodyContacto .logoContacto {
+  width: 62px;
+  margin-left: 30px;
+}
+
 .bodyEventos {
-    background-color: #FFFCF3;
+  background-color: #FFFCF3;
 }
-.imgEventos {
-    width: 250px;
-    margin-left: 90px;
-    margin-top: 20px;
-}
-.imgEv {
-    width: 500px;
+.bodyEventos .tituloEventos {
+  color: #2E2419;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
 }

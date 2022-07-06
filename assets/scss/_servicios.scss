@@ -1,0 +1,25 @@
+.bodyServicios {
+    background-color: $colorFondo;
+    .tituloServicios {
+        color:$colorTitulo;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .parrafoServicios {
+        text-align: center;
+        font-size: $tamanioTexto;
+    }
+    .listaServicios {
+        margin: 50px;
+        list-style:disc;
+        text-align:left;
+        font-size: 15px;
+    }
+    .imgServicios {
+        width: 200px;
+        margin-left: 85px;
+        margin-bottom: 3px;
+        padding: 5px;
+    }
+}

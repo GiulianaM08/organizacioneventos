@@ -1,0 +1,17 @@
+.bodyIndex {
+    background-color:$colorFondo;
+    .tituloIndex {
+        color: $colorTitulo;
+        text-align: center;
+        font-size: $tamanioTitulo;
+        font-weight: 600;
+    }
+    .tituloIndexDos {
+        text-align: center;
+    }
+    .parrafoIndex {
+        text-align: center;
+        font-size: $tamanioTexto;
+        margin: 3px;
+    }
+}
