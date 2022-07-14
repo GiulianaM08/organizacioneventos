@@ -16,6 +16,7 @@
 .bodyIndex .tituloIndexDos {
   color: #333333;
   text-align: center;
+  font-weight: 350;
 }
 .bodyIndex .parrafoIndex {
   text-align: center;
@@ -25,13 +26,13 @@
 }
 
 .footer {
-  background-color: #BFB850;
+  background-color: #BDBEBF;
   justify-content: start;
 }
 .footer .redesSociales {
   width: 280px;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 450;
   color: black;
   margin-left: 16px;
 }
@@ -39,9 +40,9 @@
   list-style: none;
   width: 280px;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 450;
   color: black;
-  background-color: #BFB850;
+  background-color: #BDBEBF;
 }
 
 .tituloQs {
