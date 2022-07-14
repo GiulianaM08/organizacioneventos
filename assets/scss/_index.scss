@@ -4,14 +4,16 @@
         color: $colorTitulo;
         text-align: center;
         font-size: $tamanioTitulo;
-        font-weight: 600;
+        font-weight: 400;
     }
     .tituloIndexDos {
+        color: $colorTitulo;
         text-align: center;
     }
     .parrafoIndex {
         text-align: center;
         font-size: $tamanioTexto;
         margin: 3px;
+        font-weight: 200;
     }
 }

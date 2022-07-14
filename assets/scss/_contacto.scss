@@ -1,15 +1,19 @@
 .bodyContacto {
-    background-color: $colorFondo;
+    background-color:$colorFondo;
     .tituloContacto {
         color:$colorTitulo;
         text-align: center;
         font-size: 40px;
-        font-weight: 600;
+        font-weight: 400;
     }
     .pContacto {
         padding: 5px;
         text-align:center;
-        font-size: 18px;
+        font-size: $tamanioTexto;
+        font-weight: 200;
+    }
+    .comentario {
+        margin-top: 5px;
     }
     .consulta {
         font-size: 18px;
@@ -19,6 +23,18 @@
     .sel {
         margin-top: 5px;
         margin-bottom: 5px;
+    }
+    .casilleroC {
+        margin-left: 3px;
+        margin-bottom: 4px;
+    }
+    .btnContacto {
+        background-color: map-get($estilosBtn, colorFondo);
+        font-size: map-get($estilosBtn, fuente);
+        padding: map-get($estilosBtn , padding );
+        margin: map-get($estilosBtn , margin );
+        margin-top: 3px;
+    
     }
     main {
         form {

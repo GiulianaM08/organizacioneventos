@@ -5,6 +5,58 @@
         color:$colorTitulo;
         text-align: center;
         font-size: 40px;
-        font-weight: 600;
+        font-weight: 400;
+    }
+}
+.imgEventos {
+    width: 150px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+.tarjetas {
+    display: flex;
+    padding: 2px;
+
+}
+.tarjetaUno {
+    width: 200px; 
+    @extend .imgEventos;
+    .nombreImg {
+        color:black;
+        text-align: center;
+        font-weight: 150;
+    }
+}
+.tarjetaDos {
+    width: 200px;
+    @extend .imgEventos;
+    .nombreImg {
+        color:black;
+        text-align: center;
+        font-weight: 150;
+    }
+}
+.tarjetaTres {
+    width: 200px;
+    @extend .imgEventos;
+    .nombreImg {
+        color:black;
+        text-align: center;
+        font-weight: 150;
+    }
+}
+.tarjetaCuatro {
+    width: 200px;
+    @extend .imgEventos;
+    .nombreImg {
+        color: black;
+        text-align: center;
+        font-weight: 150;
+    }
+}
+@media (max-width: 900px) {
+    .tarjetas {
+        display: block;
     }
 }

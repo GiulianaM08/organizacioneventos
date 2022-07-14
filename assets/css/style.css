@@ -5,25 +5,27 @@
 }
 
 .bodyIndex {
-  background-color: #FFFCF3;
+  background-color: #F1F2CE;
 }
 .bodyIndex .tituloIndex {
-  color: #2E2419;
+  color: #333333;
   text-align: center;
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 400;
 }
 .bodyIndex .tituloIndexDos {
+  color: #333333;
   text-align: center;
 }
 .bodyIndex .parrafoIndex {
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   margin: 3px;
+  font-weight: 200;
 }
 
 .footer {
-  background-color: #DBD3C9;
+  background-color: #BFB850;
   justify-content: start;
 }
 .footer .redesSociales {
@@ -39,19 +41,19 @@
   font-size: 13px;
   font-weight: 400;
   color: black;
-  background-color: #DBD3C9;
+  background-color: #BFB850;
 }
 
 .tituloQs {
-  color: #2E2419;
+  color: #333333;
   margin: 6px;
   text-align: center;
   font-size: 40px;
-  font-weight: 600px;
+  font-weight: 400;
 }
 
 .bodyQs {
-  background-color: #FFFCF3;
+  background-color: #F1F2CE;
 }
 .bodyQs .parrafoQs {
   margin: 20px;
@@ -71,17 +73,18 @@
 }
 
 .bodyServicios {
-  background-color: #FFFCF3;
+  background-color: #F1F2CE;
 }
 .bodyServicios .tituloServicios {
-  color: #2E2419;
+  color: #333333;
   text-align: center;
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 400;
 }
 .bodyServicios .parrafoServicios {
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 200;
 }
 .bodyServicios .listaServicios {
   margin: 50px;
@@ -97,18 +100,22 @@
 }
 
 .bodyContacto {
-  background-color: #FFFCF3;
+  background-color: #F1F2CE;
 }
 .bodyContacto .tituloContacto {
-  color: #2E2419;
+  color: #333333;
   text-align: center;
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 400;
 }
 .bodyContacto .pContacto {
   padding: 5px;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 200;
+}
+.bodyContacto .comentario {
+  margin-top: 5px;
 }
 .bodyContacto .consulta {
   font-size: 18px;
@@ -118,6 +125,17 @@
 .bodyContacto .sel {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+.bodyContacto .casilleroC {
+  margin-left: 3px;
+  margin-bottom: 4px;
+}
+.bodyContacto .btnContacto {
+  background-color: rgb(255, 255, 255);
+  font-size: 17px;
+  padding: 2px;
+  margin: 3px;
+  margin-top: 3px;
 }
 .bodyContacto main form {
   margin: 30px;
@@ -129,11 +147,64 @@
 }
 
 .bodyEventos {
-  background-color: #FFFCF3;
+  background-color: #F1F2CE;
 }
 .bodyEventos .tituloEventos {
-  color: #2E2419;
+  color: #333333;
   text-align: center;
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 400;
+}
+
+.imgEventos, .tarjetaCuatro, .tarjetaTres, .tarjetaDos, .tarjetaUno {
+  width: 150px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.tarjetas {
+  display: flex;
+  padding: 2px;
+}
+
+.tarjetaUno {
+  width: 200px;
+}
+.tarjetaUno .nombreImg {
+  color: black;
+  text-align: center;
+  font-weight: 150;
+}
+
+.tarjetaDos {
+  width: 200px;
+}
+.tarjetaDos .nombreImg {
+  color: black;
+  text-align: center;
+  font-weight: 150;
+}
+
+.tarjetaTres {
+  width: 200px;
+}
+.tarjetaTres .nombreImg {
+  color: black;
+  text-align: center;
+  font-weight: 150;
+}
+
+.tarjetaCuatro {
+  width: 200px;
+}
+.tarjetaCuatro .nombreImg {
+  color: black;
+  text-align: center;
+  font-weight: 150;
+}
+
+@media (max-width: 900px) {
+  .tarjetas {
+    display: block;
+  }
 }
