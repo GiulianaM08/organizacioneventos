@@ -24,6 +24,15 @@
   margin: 3px;
   font-weight: 200;
 }
+.bodyIndex .btn btn-primary {
+  margin-left: 200px;
+}
+.bodyIndex .imgIndex {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
 .footer {
   background-color: #BDBEBF;
