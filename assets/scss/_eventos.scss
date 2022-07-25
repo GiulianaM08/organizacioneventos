@@ -8,55 +8,76 @@
         font-weight: 400;
     }
 }
+.pEventos{
+    color:$colorTitulo;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
 .imgEventos {
     width: 150px;
     margin-left: 10px;
     margin-bottom: 10px;
+    .uno{
+        margin-top: 164px;
+    }
+    .dos{
+        margin-top: 89px;
+    }
+    .tres{
+        margin-top: 140px;
+    }
 
 }
 .tarjetas {
     display: flex;
-    padding: 2px;
+    padding: 20px;
+    margin-left: 225px;
 
 }
 .tarjetaUno {
+    background-color: bisque;
     width: 200px; 
     @extend .imgEventos;
     .nombreImg {
         color:black;
         text-align: center;
-        font-weight: 150;
+        font-weight: 450;
     }
 }
 .tarjetaDos {
+    background-color: bisque;
     width: 200px;
     @extend .imgEventos;
     .nombreImg {
         color:black;
         text-align: center;
-        font-weight: 150;
+        font-weight: 450;
     }
 }
 .tarjetaTres {
+    background-color: bisque;
     width: 200px;
     @extend .imgEventos;
     .nombreImg {
         color:black;
         text-align: center;
-        font-weight: 150;
+        font-weight: 450;
     }
 }
 .tarjetaCuatro {
+    background-color: bisque;
     width: 200px;
     @extend .imgEventos;
     .nombreImg {
         color: black;
         text-align: center;
-        font-weight: 150;
+        font-weight: 450;
     }
 }
 @media (max-width: 900px) {
     .tarjetas {
         display: block;
+        margin-left: 100px;
     }
 }
