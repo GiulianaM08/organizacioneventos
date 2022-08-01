@@ -36,6 +36,12 @@
   margin-bottom: 8px;
 }
 
+@media (min-width: 400px) {
+  .btn-primary {
+    margin-left: 150px;
+    margin-bottom: 8px;
+  }
+}
 .footer {
   background-color: #BDBEBF;
   justify-content: start;
@@ -239,6 +245,7 @@
 @media (max-width: 900px) {
   .tarjetas {
     display: block;
-    margin-left: 100px;
+    margin-left: 70px;
+    padding: 5px;
   }
 }
